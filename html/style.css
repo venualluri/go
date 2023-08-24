@@ -1,1 +1,4 @@
+a, a:link {color:blue;text-decoration: none;}
+a:hover {color: red;text-decoration: underline;}
 img {width:auto;max-width: 100%;}
+ul {list-style-type: none;}
