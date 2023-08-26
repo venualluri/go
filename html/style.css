@@ -1,4 +1,5 @@
 a, a:link {color:blue;text-decoration: none;}
 a:hover {color: red;text-decoration: underline;}
+a:visited {color:mediumseagreen}
 img {width:auto;max-width: 100%;}
 ul {list-style-type: none;}
