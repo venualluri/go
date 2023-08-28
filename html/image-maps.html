@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Maps</title>
+</head>
+<body>
+  <h2>Shape="rect"</h2>
+  <code>#click on monitor screen or keyboard in the image.</code><br>
+  <img src="images/workplace.jpg" alt="myphoto" usemap="#workplace">
+
+  <map name="workplace">
+    <area shape="rect" coords="40,50,260,180" href="https://en.wikipedia.org/wiki/Computer_monitor">
+    <area shape="rect" coords="50,200,250,280" href="https://en.wikipedia.org/wiki/Computer_keyboard">
+  </map>
+
+
+  <h2>Shape="circle"</h2>
+  <code>#click on coffee cup in the image.</code><br>
+  <img src="images/workplace.jpg" alt="image map circle" usemap="#circle">
+
+  <map name="circle">
+    <area shape="circle" coords="335,300,50" href="https://en.wikipedia.org/wiki/Coffee">
+  </map>
+
+
+  <h2>Shape="poly"</h2>
+  <code>#click on frenchfood</code><br>
+  <img src="images/frenchfood.jpg" alt="frenchfood" usemap="#poly">
+
+  <map name="poly">
+    <area shape="poly" coords="140,121,181,116,204,160,204,222,191,270,140,329,85,355,58,352,37,322,40,259,103,161,128,147" href="https://en.wikipedia.org/wiki/French_dressing">
+  </map>
+</body>
+</html>
