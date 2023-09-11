@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    table {
+      width:100%;
+    }
+    table, th, td {
+      border: 1px solid black;
+      border-collapse: collapse;
+      padding:10px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Hide Columns</h1>
+
+  <table>
+
+    <colgroup>
+      <col span="2">
+      <col span="3" style="visibility:collapse">
+    </colgroup>
+
+    <tr>
+      <th>SUN</th>
+      <th>MON</th>
+      <th>TUE</th>
+      <th>WED</th>
+      <th>THU</th>
+      <th>FRI</th>
+      <th>SAT</th>
+    </tr>
+
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td></td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+  </table>
+
+
+  <br>
+  <br>
+  <br>
+  <code>Note: in the above example TUE, WED, THU, columns are hidden by using css property <q>visibility:collapse</q></code>
+</body>
+</html>
