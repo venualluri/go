@@ -1,6 +1,7 @@
 body {
   font-family: 'Open Sans', sans-serif;
-  font-size: 1em;
+  font-size: 15px;
+  font-weight: 400;
 }
 
 a, a:link {
